@@ -2,6 +2,20 @@
 
 # Make it imperial versus metric system
 # Maybe make it in metric, and then make a conversion function?
+# L, mL = Metric, ounces = imperial
+
+system = input("Are you in the imperial or metric system? (I=imperial, M= Metric)")
+
+if (system = "I") {
+  print("imperial")
+}
+elif (system = "M") {
+  print("Metric")
+}
+else {
+  # Make this loop the system input
+  print("I'm sorry, I don't understand. I unfortunately cannot run this program without your unit of measurement.")
+}
 
 # water bottle amount
 # adjust ounces for system
