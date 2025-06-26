@@ -1,6 +1,19 @@
 import bottles
 
+def bottle_checker(a):
+  if (a== "Y") {
+    print("Cool!")
+  }
+  if (a == "N") {
+    print("Oh.")
+  }
+
 # Explain to user how to find the ounces on the water bottle/cup they drink, maybe make an algorithm based on the name that finds it for them
+print("Welcome to the water calculator!")
+print("How many bottles do you need to drink a day based on your water bottle? Let's find out.")
+#
+csv_check = input("First, do you know how many oz/mL your water bottle holds? It is often at the bottom of the bottle, check there! (Y/N)")
+
 
 # Make it imperial versus metric system
 # Maybe make it in metric, and then make a conversion function?
