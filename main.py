@@ -7,10 +7,12 @@
 system = input("Are you in the imperial or metric system? (I=imperial, M= Metric)")
 
 if (system = "I") {
-  print("imperial")
+  print("imperial");
+  unit = "ounces";
 }
 elif (system = "M") {
-  print("Metric")
+  print("Metric");
+  unit = "mL";
 }
 else {
   # Make this loop the system input
@@ -19,7 +21,7 @@ else {
 
 # water bottle amount
 # adjust ounces for system
-water_bottle = input("What is the total ounces your water bottle can hold?")
+water_bottle = input("What is the total amount in " + unit + " your water bottle can hold?")
 
 # The U.S. National Academies of Sciences, Engineering, and Medicine determined that an adequate daily fluid intake is: About 15.5 cups (3.7 liters) of fluids a day for men. About 11.5 cups (2.7 liters) of fluids a day for women.
 gender = input("What is your biological sex? (F for female, M for male)")
