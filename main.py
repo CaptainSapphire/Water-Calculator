@@ -3,6 +3,11 @@ def calc_volume(){
   print("filler");
   # make formula for volume of a cylinder
   # then consider the system so it outputs the correct amount?
+
+# inches or centimeters
+  height = input("What is the height of your bottle in" + height_units)
+  
+## cylinder volume is radius squared times pi times height
 }
 
 
@@ -35,9 +40,11 @@ bottom_bottle = input("Do you know how much water your bottle can hold? (Typical
 # consider the units being used
 if (bottom_bottle == "Y") {
   unit = "ounces";
+  height_units = "inches";
 }
 elif (bottom_bottle == "N") {
   unit = "mL";
+  height_units = "centimeters";
 }
 else {
   # Make this loop the system input
