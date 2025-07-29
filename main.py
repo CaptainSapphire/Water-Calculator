@@ -1,4 +1,4 @@
-
+# Functions
 def bottle_checker(a):
   if (a== "Y") {
     print("Cool!")
@@ -6,6 +6,7 @@ def bottle_checker(a):
   if (a == "N") {
     print("Oh.")
   }
+
 
 # Explain to user how to find the ounces on the water bottle/cup they drink, maybe make an algorithm based on the name that finds it for them
 print("Welcome to the water calculator!")
@@ -31,6 +32,7 @@ else {
   # Make this loop the system input
   print("I'm sorry, I don't understand. I unfortunately cannot run this program without your measurement system.")
 }
+
 
 # water bottle amount
 # adjust ounces for system
