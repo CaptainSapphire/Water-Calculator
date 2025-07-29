@@ -1,13 +1,7 @@
+
 # Functions
-def bottle_checker(a):
-  if (a== "Y") {
-    print("Cool!")
-  }
-  if (a == "N") {
-    print("Oh.")
-  }
 
-
+## START
 # Explain to user how to find the ounces on the water bottle/cup they drink, maybe make an algorithm based on the name that finds it for them
 print("Welcome to the water calculator!")
 print("How many bottles do you need to drink a day based on your water bottle? Let's find out.")
