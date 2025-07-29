@@ -1,24 +1,27 @@
+## FUNCTIONS
+def calc_volume(){
+  print("filler");
+  # make formula for volume of a cylinder
+  # then consider the system so it outputs the correct amount?
+}
 
-# Functions
+
 
 ## START
 # Explain to user how to find the ounces on the water bottle/cup they drink, maybe make an algorithm based on the name that finds it for them
 print("Welcome to the water calculator!")
 print("How many bottles do you need to drink a day based on your water bottle? Let's find out.")
-#
 
-
+## SYSTEM OF MEASUREMENT
 # Make it imperial versus metric system
 # Maybe make it in metric, and then make a conversion function?
 # L, mL = Metric, ounces = imperial
-
-####
 system = input("Are you in the imperial or metric system? (I=imperial, M= Metric)")
-if (system = "I") {
+if (system == "I") {
   print("imperial");
   unit = "ounces";
 }
-elif (system = "M") {
+elif (system == "M") {
   print("Metric");
   unit = "mL";
 }
@@ -26,6 +29,21 @@ else {
   # Make this loop the system input
   print("I'm sorry, I don't understand. I unfortunately cannot run this program without your measurement system.")
 }
+
+## BOTTOM OF BOTTLE
+bottom_bottle = input("Do you know how much water your bottle can hold? (Typically listed on the bottom of the bottle or on website purchased) Y or N.")
+# consider the units being used
+if (bottom_bottle == "Y") {
+  unit = "ounces";
+}
+elif (bottom_bottle == "N") {
+  unit = "mL";
+}
+else {
+  # Make this loop the system input
+  print("Invalid input.")
+}
+
 
 
 # water bottle amount
